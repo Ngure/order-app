@@ -1,4 +1,6 @@
-Flask
-Flask-SQLAlchemy
-authlib
+flask
+flask_sqlalchemy
+flask_login
+flask_dance
+python-dotenv
 africastalking
