@@ -23,5 +23,5 @@ This is a simple Python service built with Flask, using SQLite for the database,
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/customer-orders-api.git
-   cd customer-orders-api
+   git clone https://github.com/Ngure/order-app.git
+   cd order-app
