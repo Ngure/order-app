@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Customer List</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Phone Number</th>
+    </tr>
+    {% for customer in customers %}
+    <tr>
+        <td>{{ customer.id }}</td>
+        <td>{{ customer.name }}</td>
+        <td>{{ customer.code }}</td>
+        <td>{{ customer.phone_number }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="/">Back to Home</a>
+{% endblock %}
