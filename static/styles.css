@@ -60,7 +60,7 @@ input[type="submit"]:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 table, th, td {
@@ -68,7 +68,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
@@ -77,8 +77,10 @@ th {
 }
 
 a {
-    color: #4CAF50;
+    display: inline-block;
+    margin-top: 10px;
     text-decoration: none;
+    color: #4CAF50;
 }
 
 a:hover {
